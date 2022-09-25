@@ -22,16 +22,17 @@
                 android:layout_height="150dp"
                 android:layout_marginStart="28dp"
                 android:layout_marginTop="47dp"
-                android:background="@drawable/pexels_pixabay_235725"
+                android:background="@color/black"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/pexels_pixabay_235725" />
 
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
-                android:layout_marginTop="68dp"
+                android:layout_marginTop="50dp"
                 android:gravity="center"
                 android:text="TextView"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -89,7 +90,9 @@
                 android:layout_height="36dp"
                 android:layout_marginTop="32dp"
                 android:layout_marginEnd="16dp"
+                android:background="@drawable/ic_baseline_surround_sound_24"
                 android:text="Button"
+                app:backgroundTint="#FFFFFF"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:ignore="TouchTargetSizeCheck" />
@@ -100,7 +103,9 @@
                 android:layout_height="36dp"
                 android:layout_marginTop="6dp"
                 android:layout_marginEnd="16dp"
+                android:background="@drawable/ic_baseline_food_bank_24"
                 android:text="Button"
+                app:backgroundTint="#FFFFFF"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button4"
                 tools:ignore="TouchTargetSizeCheck" />

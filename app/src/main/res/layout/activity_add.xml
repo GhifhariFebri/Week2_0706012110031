@@ -22,9 +22,10 @@
             android:layout_marginStart="136dp"
             android:layout_marginTop="10dp"
             android:layout_weight="1"
-            android:background="@drawable/pexels_pixabay_235725"
+            android:background="#000000"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/toolbar2" />
+            app:layout_constraintTop_toBottomOf="@+id/toolbar2"
+            app:srcCompat="@drawable/pexels_pixabay_235725" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/Title"
